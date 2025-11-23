@@ -1,0 +1,13 @@
+.card {
+    display: flex;
+    align-items: center;
+    padding: 5PX 10PX;
+    margin: 10PX 0;
+    background-color: #7C6EE9;
+    border-radius: 5PX;
+}
+
+.card img {
+    width: 30px;
+    margin-right: 15px;
+}

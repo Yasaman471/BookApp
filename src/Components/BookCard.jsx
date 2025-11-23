@@ -4,10 +4,14 @@ import styles from "./BookCard.module.css"
 
 
 
-function BookCard( {data : {author,image,language,pages,title } } ) {
+
+function BookCard( {data,handleLikedList } ) {
+    const {author,image,language,pages,title } = data;
+
     const[like,setLike] = useState(false)
 
     const likeHandler = ()=>{
+        handleLikedList(data,like)
         setLike(like=>!like)
     }
   return (
