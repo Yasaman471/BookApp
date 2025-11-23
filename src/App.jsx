@@ -1,9 +1,10 @@
+import Books from "./Components/Books"
 import Layout from "./Layout/Layout"
 
 function App() {
    return (
     <Layout>
-    <h1>Book App</h1>
+      <Books />
     </Layout>
   )
 }
